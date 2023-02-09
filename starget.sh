@@ -23,9 +23,9 @@ then
                                                                                                                                                           
         if [[ $Resultstring == *"0% packet loss"* ]]                                                                                                              
         then                                                                                                                                                      
-            echo -e "\n\t La Maquina esta online\n";                                                                                                          
+            echo -e "\n\t Machine online \n";                                                                                                          
         else                                                                                                                                                      
-            echo -e "\n\t La Maquina no contesta la solicitud ICMP\n"<----->                                                                                  
+            echo -e "\n\t Machine no ICMP request \n"<----->                                                                                  
         fi                                                                                                                                                        
 else  echo -e "\n\t --xxx---\n"                                                                                                                                   
                                                                                                                                                                        
