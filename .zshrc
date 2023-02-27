@@ -45,7 +45,7 @@ alias txx='tmux kill-server' #tmux kill
 
 
 alias skanner='sh ~/bin/skanner.sh' # run script for manage nmap, whatweb and dirsearch for inicial recon.
-alias findtext='sh ~/bin/buscartexto1.sh' # make script based on grep to find in subfolder or inside files, suggested string
+alias findtext='sh ~/bin/textsearch.sh' # make script based on grep to find in subfolder or inside files, suggested string
 
 alias revshell='bat  ~/bin/shellhelp.txt' # help with alternatives of revshell in diverses environments
 alias loadfile='bat  ~/bin/loadfile-help.txt' # help with tranfer files in diverses environments
@@ -56,7 +56,7 @@ alias Target='sh ~/bin/Target.sh' # Script for Set indicator in I3 WM for target
 # Functions #mkt Create dir for recon and pentest organize information. (based on idea of aka s4vitar)
 
 function mkt(){
-	mkdir {nmap,content,scripts}
+	mkdir {recon,data,exploits}
 }
 
 
