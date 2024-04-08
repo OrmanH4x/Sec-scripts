@@ -1,6 +1,4 @@
 #!/bin/bash
-# Script para generar informacion de las IP en Kali XFCE panel Generic mon.
-
 custom_ip=$(cat target.txt)  # Lee la dirección IP personalizada desde el archivo target.txt
 current_ip=$(/usr/sbin/ifconfig eth0 | grep "inet " | awk '{print $2}') # current_ip=$(curl -s ifconfig.me)  # Obtiene la dirección IP pública actual
 vpn_ip=$(ifconfig tun0 2>/dev/null | grep 'inet ' | awk '{print $2}')  # Obtiene la dirección IP de la VPN (redirige stderr a /dev/null)
